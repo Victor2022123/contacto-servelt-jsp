@@ -13,7 +13,7 @@
     </head>
     <body>
         <h1>Pagina de Registro de Contacto</h1>
-        <form action="<%= request.getContextPath()%>  /ContactoServelt" method="GET">
+        <form action="<%= request.getContextPath()%>/ContactoServelt" method="GET">
             <label>Nombre:</label>
             <input type="text" name="nombre">
             <br>
